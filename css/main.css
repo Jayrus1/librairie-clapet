@@ -246,11 +246,12 @@ button {
   position: absolute;
   padding-top: 20px;
   padding-bottom: 25px;
+
   bottom: 0;
   width: 100%;
   text-align: center;
   color: white;
-  font-family: "Montserrat", "Avenir Next", Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", "Avenir Next", sans-serif;
   text-shadow: 1px 1px 4px #000;
   background: rgba(0, 0, 0, 0.4);
 }
@@ -261,6 +262,7 @@ button {
 .header__title {
   font-size: 5.4em;
   margin: 0;
+  margin-bottom: 32px;
 }
 
 .header__subtitle {
@@ -268,6 +270,7 @@ button {
   font-size: 3.2em;
   font-weight: 100;
   text-shadow: 1px 1px 5px #000;
+  margin-bottom: 18px;
 }
 
 
@@ -281,7 +284,10 @@ button {
 
 .nav-main__link {
   display: block;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
   padding: 10px;
+  font-size: 18px;
   color: #fff;
 }
 .nav-main__link:hover {
