@@ -210,7 +210,6 @@ button {
   color: #1a1a1a;
 }
   
-}
 
 .full-width {
   display: block;
@@ -447,7 +446,7 @@ button {
 .news-list__news {
   grid-column: span 1;
 }
-.news-big {
+.news-big .news__link{
   display: grid;
   grid-column: span 3;
   grid-gap: 35px;
@@ -462,7 +461,6 @@ button {
 
   text-align: left;
 }
- 
 /**
 * -----------
 * Trumps
