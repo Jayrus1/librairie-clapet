@@ -200,12 +200,13 @@ button {
 
 .chapo {
   
-  width: 600px;
   margin-bottom: 8px;
+  margin-right: auto;
+  margin-left:auto;
   font-family: 'Work Sans', sans-serif;
   font-size: 25px;
   letter-spacing: normal;
-  text-align: justify;
+  text-align: center;
   color: #1a1a1a;
 }
   
