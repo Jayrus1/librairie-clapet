@@ -199,15 +199,16 @@ button {
 }
 
 .chapo {
-  font-size: 25px;
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 400;
-  color: #1a1a1a;
-  text-align: center;
   
-
- 
-
+  width: 600px;
+  margin-bottom: 8px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 25px;
+  letter-spacing: normal;
+  text-align: justify;
+  color: #1a1a1a;
+}
+  
 }
 
 .full-width {
@@ -216,13 +217,11 @@ button {
   margin: 50px auto;
 }
 
-
 /**
 * -----------
 * Components
 * -----------
 */
-
 
 /**
 * header
@@ -358,7 +357,6 @@ button {
 }
 
 
-
 /**
 * news
 */
@@ -374,7 +372,6 @@ button {
   -o-transition-delay: 0ms;
   transition-delay: 0ms;
 }
-
 
 .news__thumbnail {
   margin-bottom: 10px;
@@ -468,6 +465,7 @@ button {
   font-size: 5.6em;
   line-height: 1.4;
   font-weight: 500;
+  
 }
 
 .page-single__subtitle {
@@ -496,7 +494,7 @@ button {
 *citation
 */
 
-.texte-citation {
+.citation {
 color: #e8a27d;
 border-left:2px solid #d9d9d9;
 font-family: 'Montserrat', sans-serif;
@@ -507,7 +505,14 @@ margin-right:120px;
 margin-top:50px;
 
 }
+.author{ 
+font-size: 16px; 
+color :#1a1a1a;
+font-weight: 400;
+font-family: 'Work sans',sans-serif;
+text-align: right;
 
+}
 
 .colonnes {
   display: flex;
